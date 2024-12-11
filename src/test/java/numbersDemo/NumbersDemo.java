@@ -10,12 +10,12 @@ public class NumbersDemo {
         Object num = "2";
         Object bool = true;
         Object data = 1;
+        String number = "123";
         System.out.println("the integer : " +num);
 
         System.out.println(num instanceof Character);
 
-//        System.out.println(Integer.valueOf());// conversion of string to integer
-
+        System.out.println(Integer.valueOf(number));// conversion of string to integer
 
     }
 }
