@@ -9,9 +9,16 @@ public class ChildDemo extends ParentDemo {
         System.out.println(data);
     }
 
+    public void dataFromParent(){
+        System.out.println(super.name);
+        super.arithmeticOperation();
+
+    }
+
     public static void main(String[] args) {
         ChildDemo childdemo = new ChildDemo();
         System.out.println(childdemo.name);
-        System.out.println(childdemo.arithmeticOperation());
+        childdemo.arithmeticOperation();
+        childdemo.dataFromParent();
     }
 }
