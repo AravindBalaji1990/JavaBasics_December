@@ -35,7 +35,6 @@ public class ClassADemo implements InterfaceADemo, InterfaceBDemo{
         System.out.println("the addition operation : " +result);
     }
 
-    @Override
     public String dataTest() {
         return null;
     }
