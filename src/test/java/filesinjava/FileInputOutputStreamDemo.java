@@ -25,9 +25,10 @@ public class FileInputOutputStreamDemo {
             // We have used c as a temporary integer to store the data from
             // input file
             int c;
+            //101010111000
             while ((c = inputfile.read()) != -1) {
                 // this is going to print the ascii value of the data in the input.txt
-//				System.out.println("the file that has been read : " + c);
+				System.out.println("the file that has been read : " + c);
                 // this place is where the write operation happens
                 outputfile.write(c);
             }
