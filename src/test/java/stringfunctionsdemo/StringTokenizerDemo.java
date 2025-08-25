@@ -8,8 +8,8 @@ public class StringTokenizerDemo {
     public static void main(String[] args) {
         // split the string
         String data ="hello world welcome, to appium session";
-        String[] datasplitted = data.split(" ");
-        System.out.println(Arrays.toString(datasplitted));
+//        String[] datasplitted = data.split(",");
+//        System.out.println(Arrays.toString(datasplitted));
 
         // in astring tokenizer - if no delimter is specified it takes space as a delimter
         StringTokenizer st = new StringTokenizer(data);
