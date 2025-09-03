@@ -18,7 +18,7 @@ public class CreateDir {
 		// exists -> will check for the folder availability
 		if (!d.exists()) {
 			// command to create a directory
-			d.mkdirs();
+			d.mkdirs(); // make directory - create directory
 			System.out.println("the folder is created as new");
 		} else {
 			System.out.println("folder already exists");

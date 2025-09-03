@@ -13,13 +13,15 @@ public class FileReaderWriterDemo {
         FileWriter out = null;
 
         try {
+            //System.getProperty("user.dir") - thsi will dynamically search for the folder where ever you have used
             in = new FileReader(System.getProperty("user.dir") + "/src/test/resources/data/SampleInput.txt");
             out = new FileWriter(System.getProperty("user.dir") + "/src/test/resources/output_write.txt");
 
+            // this variable c will be a temp variable where when you write the bytes will be stored here
             int c;
             while ((c = in.read()) != -1) {
-                System.out.println("the charcter data :" + (char) c);
-                out.write(c);
+                System.out.println("the character data :" + (char) c);
+                out.write(c);// this will write the data back to a txt file for any file that you provide as extensioni n line number 18
             }
         } catch (FileNotFoundException e) {
             // TODO Auto-generated catch block

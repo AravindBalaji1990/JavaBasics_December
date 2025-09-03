@@ -18,9 +18,9 @@ public class FileInputOutputStreamDemo {
         try {
 //			inputfile = new FileInputStream("./DataTextFile/SampleInput.txt");
             System.out.println("the user directory : " + System.getProperty("user.dir"));
-            inputfile = new FileInputStream(System.getProperty("user.dir") + "/src/test/resources/data/SampleInput.txt");
+            inputfile = new FileInputStream(System.getProperty("user.dir") + "/src/test/resources/data/pic.jpg");
 //			outputfile = new FileOutputStream("D:\\SeleniumSession\\Test\\output_write_06_02_2021.txt");
-            outputfile = new FileOutputStream(System.getProperty("user.dir") + "/src/test/resources/data/output_write.txt");
+            outputfile = new FileOutputStream(System.getProperty("user.dir") + "/src/test/resources/data/pic2.jpg");
 
             // We have used c as a temporary integer to store the data from
             // input file
