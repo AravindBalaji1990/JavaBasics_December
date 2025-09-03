@@ -9,16 +9,16 @@ public class ExceptionHandlingDemo1 {
             String[] arraystring = {"sample", "demo", "except"};
             System.out.println("the data in array :" + arraystring[9]);
         }
-//        catch (ArithmeticException e) {
-//            System.out.println("the  sepcific exception : " + e);
-//            e.printStackTrace();
-//        } catch (ArrayIndexOutOfBoundsException e) {
-//            System.out.println("the  sepcific exception : " + e);
-//            e.printStackTrace();
-//        }
-        catch (Exception e) {
+        catch (ArithmeticException e) {
             System.out.println("the  sepcific exception : " + e);
             e.printStackTrace();
+        } catch (ArrayIndexOutOfBoundsException e) {
+            System.out.println("the  sepcific exception : " + e);
+//            e.printStackTrace();
+        }
+        catch (Exception e) {
+            System.out.println("the  sepcific exception : " + e);
+//            e.printStackTrace();
         }
     }
 }

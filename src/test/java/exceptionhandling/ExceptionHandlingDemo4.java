@@ -1,16 +1,17 @@
 package exceptionhandling;
 
 public class ExceptionHandlingDemo4 {
-    public static void main(String[] args) {
+    public static void main(String[] args)  {
         try {
             sampleMethod();
         } catch (Exception e) {
-            e.printStackTrace();
+            throw new RuntimeException(e);
         }
+
 
     }
 
-    public static void sampleMethod() throws Exception {
+    public static void sampleMethod() throws ArithmeticException,Exception {
 
         int result = 2 / 2;
         if (result == 1) {
