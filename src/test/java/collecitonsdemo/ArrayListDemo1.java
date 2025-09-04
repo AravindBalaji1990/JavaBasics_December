@@ -26,7 +26,7 @@ public class ArrayListDemo1 {
         stringarraylist1.add("sample6");
 
 // add two lists
-//        stringarraylist.addAll(stringarraylist1);
+        stringarraylist.addAll(stringarraylist1);
 
         // delete items from list
 
@@ -34,11 +34,11 @@ public class ArrayListDemo1 {
 
         // manipulate the data
         for (int i = 0; i < stringarraylist.size(); i++) {
-            if(stringarraylist.get(i).equals("sample3")){
-                stringarraylist.remove(i);
-            }else {
-                System.out.println("data manipulation : " + stringarraylist.get(i));
-            }
+//            if(stringarraylist.get(i).equals("sample3")){
+//                stringarraylist.remove(i);
+//            }else {
+            System.out.println("data manipulation : " + stringarraylist.get(i));
+//            }
         }
 
 

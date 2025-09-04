@@ -26,7 +26,8 @@ public class LinkedListDemo {
 
         System.out.println("the total items inside the list :" + stringarraylist.size());
         System.out.println("get one of the data from array :" + stringarraylist.get(1));
-//        System.out.println("get one of the data from array :" + stringarraylist.get(10));
+        System.out.println("get one of the data from array :" + stringarraylist.remove(2));// remove theelement from the list
+
 
 
         System.out.println("get one of the data from array usign random:" + stringarraylist.get(new Random().nextInt(stringarraylist.size())));
@@ -51,6 +52,8 @@ public class LinkedListDemo {
             // next() -> this gets the data
             System.out.println(iteratordata.next());
         }
+
+        stringarraylist.clear();// this will clear the entire list
 
 
     }

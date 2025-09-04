@@ -7,6 +7,8 @@ import java.util.Random;
 
 public class ArrayListDemo {
 
+    // array list will be slow in insertion/deletion - position we need to shift that consumes the performance of the arraylist
+
     public static void main(String[] args) {
 //        List<String> stringarraylist = new ArrayList<>();
 //        ArrayList<Object> name = new ArrayList();
@@ -30,7 +32,7 @@ public class ArrayListDemo {
 //        System.out.println("get one of the data from array :" + stringarraylist.get(10));
 
 
-        System.out.println("get one of the data from array usign random:" + stringarraylist.get(new Random().nextInt(stringarraylist.size())));
+//        System.out.println("get one of the data from array usign random:" + stringarraylist.get(new Random().nextInt(stringarraylist.size())));
 
         // manipulate the data
         for (int i = 0; i < stringarraylist.size(); i++) {
@@ -39,6 +41,7 @@ public class ArrayListDemo {
 
         System.out.println("---------------------");
 
+        // for each loop where the data will be manipulated with out any reference to size
         for(String data : stringarraylist){
             System.out.println("data manipulation : " +data);
         }

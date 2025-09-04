@@ -6,7 +6,7 @@ import java.util.Set;
 
 public class HashSetDemo {
     public static void main(String[] args) {
-//        Set<String> hashsetobj = new HashSet<>();
+        Set<String> hashsetobj1 = new HashSet<>();
         HashSet<String> hashsetobj = new HashSet<>();
         hashsetobj.add("Sample1");
         hashsetobj.add("Sample2");

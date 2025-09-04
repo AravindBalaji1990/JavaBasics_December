@@ -8,7 +8,7 @@ import java.util.Map;
 public class HashTableDemo {
 
     public static void main(String[] args) {
-//        Dictionary<Integer,String> hashtabledemo = new Hashtable<>();
+        Dictionary<Integer,String> hashtabledemo1 = new Hashtable<>();
         Hashtable<Integer, String> hashtabledemo = new Hashtable<>();
 
         hashtabledemo.put(100, "Sample1");
@@ -21,7 +21,7 @@ public class HashTableDemo {
         hashtabledemo.put(107, "Sample6");
         // null key or value is not accepted in the HashTable
 //        hashtabledemo.put(null, null);
-//        hashtabledemo.put(106, null);
+        hashtabledemo.put(106, null);
 
         for (Map.Entry data : hashtabledemo.entrySet()) {
             System.out.println("data inside a hashmap : " + data.getKey() + " - " + data.getValue());
