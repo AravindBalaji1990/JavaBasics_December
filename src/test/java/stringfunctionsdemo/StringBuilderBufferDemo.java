@@ -2,8 +2,14 @@ package stringfunctionsdemo;
 
 public class StringBuilderBufferDemo {
     public static void main(String[] args) {
+        String sam = new String("sample");
+
+
+
         StringBuilderBufferDemo sg = new StringBuilderBufferDemo();
-        sg.sampleStringBuilder();
+//        sg.sampleStringBuilder();
+
+        sg.sampleStringBuffer();
         // mutable
         // threadsafe multiple threads can access it as a synchronised way
 //        StringBuffer sbuffer = new StringBuffer("Hello");

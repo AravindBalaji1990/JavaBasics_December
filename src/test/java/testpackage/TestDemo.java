@@ -16,6 +16,9 @@ public class TestDemo {
         TestDemoSample testdemosample = new TestDemoSample();
         testdemosample.subtraction();
 
+        TestDemo testdemoobj = new TestDemo();
+        System.out.println(testdemoobj.multiplicationDemo(2,3));
+
     }
 
     //method with out argument
